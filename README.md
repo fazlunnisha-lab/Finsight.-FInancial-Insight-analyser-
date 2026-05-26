@@ -2,6 +2,10 @@
 AI-powered financial document intelligence system. Ingests SEC 10-K filings, builds vector search with ChromaDB, enables natural language Q&amp;A via Groq LLM. Features automated ratio calculation, peer comparison, trend visualization, and red flag detection for management discussion patterns. Built for equity research and fundamental analysis.
 Project Overview
 FinSight is a Retrieval-Augmented Generation (RAG) based system designed for equity research analysts, portfolio managers, retail investors, and business journalists. It ingests company annual reports (SEC 10-K filings), processes Management Discussion & Analysis (MD&A) sections, and enables intelligent natural language querying with source citations.
+
+
+
+
 Key Capabilities:
 🔍 Natural language Q&A over financial documents
 📊 Automated financial ratio calculation & trend visualization
@@ -26,6 +30,8 @@ Copy
 ┌─────────────────────────────────────────────────────────────────┐
 │  Analysis Layer: Ratios | Peer Compare | Red Flags | Trends   │
 └─────────────────────────────────────────────────────────────────┘
+
+
 #Tech Stack
 Table
 Component	Technology	Why
@@ -35,6 +41,8 @@ Vector DB	ChromaDB	Lightweight, persistent
 UI	Streamlit	Rapid prototyping, interactive widgets
 Charts	Plotly	Interactive, professional visuals
 Data Source	SEC EDGAR	Public, legally compliant
+
+
 📁 Project Structure
 plain
 Copy
@@ -64,6 +72,7 @@ Step 2: Configure API Key
 Set your Groq API key as an environment variable:
 bash
 Copy
+
 # Linux/Mac
 export GROQ_API_KEY="gsk-your-key-here"
 
